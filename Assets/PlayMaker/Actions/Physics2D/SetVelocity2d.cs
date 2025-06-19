@@ -32,7 +32,6 @@ namespace HutongGames.PlayMaker.Actions
 		{
 			gameObject = null;
 			vector = null;
-            // default axis to variable dropdown with None selected.
 			x = new FsmFloat { UseVariable = true };
 			y = new FsmFloat { UseVariable = true };
             space = Space.World;
